@@ -1,4 +1,5 @@
 # RAG Application — FastAPI + Streamlit + ChromaDB
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/e7404b06-099b-4c93-966d-d30cbbae06d3" />
 
 A fully functional Retrieval-Augmented Generation (RAG) system built using:
 
@@ -57,7 +58,7 @@ Stored in SQLite table: `application_logs`
 ---
 
 ## Project Structure
-
+```
 rag_app/
 │
 ├── api/
@@ -72,7 +73,7 @@ rag_app/
 ├── requirements.txt
 ├── README.md
 └── rag_app.db                # SQLite database (auto-created)
-
+```
 ---
 
 ## Technologies Used
@@ -90,6 +91,7 @@ rag_app/
 
 ## System Architecture
 
+```
                Streamlit UI (Chat + File Upload)
                           |
                         HTTP
@@ -100,6 +102,7 @@ rag_app/
        ┌───────────────┬───────────────┬────────────────┐
        |               |                |                |
    ChromaDB       SQLite Logs     Document Store     Others
+```
 
 ---
 
@@ -200,3 +203,5 @@ Pull requests are welcome. For major changes, open an issue first to discuss.
 
 Pull requests are welcome.
 For major changes, open an issue first to discuss.
+
+
